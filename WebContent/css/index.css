@@ -1,0 +1,122 @@
+*{
+	font-family: "Times New Roman", Times, serif;
+}
+html{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	color: white;
+}
+
+.header{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url("images/home.jpg");
+}
+
+
+nav{
+	position: fixed;
+	top:0;
+	margin: 0;
+	background-color: rgba(0, 0, 0, 1);
+	width: 100%;
+	height: 65px;
+	padding-top: 10px;
+	z-index: 9999;
+}
+
+.main-nav{
+	display: inline;
+	color: black;
+	float: right;
+	margin-top: 15px;
+}
+
+.main-nav a{	
+	font-family: "Times New Roman", Times, serif;
+	font-size: 90%;
+	font-weight: bold;
+	color: white;
+	margin-left: 25px;
+	padding:20px;
+}
+
+.nav-image{
+	height: 25px;
+	width: 40px;
+	position: center;
+}
+
+.company_logo{
+	height: 40px;
+}
+
+
+.heading-text{
+	margin-top: 30px;;
+	margin-left: 10%;
+	color: white;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: lighter;
+}
+
+#image{
+	width:580px;
+	height:400px;
+	border-radius: 25px;
+}
+
+.login-form{
+	
+	height: 400px;
+	margin-top: 56px;
+	background-color: rgba(255,255,255,0.6);
+	border-radius: 25px;
+	
+	
+}
+
+#search_image, #message_image, #photos_image, #themes_image, #profile_image,#vit_image{
+	width:100px;
+	height: 100px;
+}
+
+.aboutme{
+	margin: 20px;
+}
+
+.aboutme-content{
+	margin:20px;
+	padding:20px;
+}
+
+.features{
+padding: 30px;	
+}
+
+.feature-div{
+border: 1px solid black;
+border-radius: 25px;	
+padding: 10px;
+margin: 20px;
+}
+
+.fancy-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #111199; }
+
+.fancy-link:after {
+  display: block;
+  content: '';
+  border-bottom: solid 1px #22a;
+  transform: scaleX(0.0001);
+  transition: transform 250ms ease-in-out; }
+
+.fancy-link:hover:after {
+  transform: scaleX(1); }
+
+a{
+	text-decoration: none;
+}
+
+
+

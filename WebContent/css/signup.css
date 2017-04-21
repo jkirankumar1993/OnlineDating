@@ -1,0 +1,26 @@
+*{
+	font-family: "Times New Roman", Times, serif;
+	
+}
+html{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	color: white;
+}
+
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("images/signup.png");
+	background-size: cover;
+}
+
+.signup-form{
+	margin-top: 30px;
+	color: black;
+	font-weight: bold;
+	background-color: rgba(255,255,255,0.6);
+	border-radius: 25px;
+}
+
+.theme-form{
+	display:none;
+}
